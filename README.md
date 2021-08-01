@@ -8,6 +8,8 @@
 
 Build a Python script that would move all of your files to new directories based on their creation and modification dates. Basically, it will look for directories and, if any are found, it will extract all the files from that folder, delete that folder, and then arrange them by creation date.
 
+## Approach: 
+
 - To change the directory and move to the directory where you wish to place all your files based on the modification date, use the ***os.chdir*** function.
 - To list all the folders and files, use the ***os.listdir*** function.
 - To get the current working directory, use the ***os.getcwd*** method.
@@ -20,3 +22,10 @@ Build a Python script that would move all of your files to new directories based
 - Then, one by one, extract the ***Year***, ***Month***, and ***Day***.
 - Run an If condition to see if that folder has already been created; if not, create it using the file’s creation date as the name.
 - Finally, using the ***shutil.move*** function, move all the files one by one to the newly formed folder.
+
+## Output: 
+### Before:
+<img width="696" alt="1" src="https://user-images.githubusercontent.com/69134468/127762342-13a1383b-a7c0-4aae-bffc-4a32d324dfe5.PNG">
+
+### After: 
+<img width="694" alt="2" src="https://user-images.githubusercontent.com/69134468/127762340-cc73f2e5-fac7-4b3c-8dc2-9ab5346a1c9f.PNG">
