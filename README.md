@@ -22,6 +22,7 @@ Build a Python script that would move all of your files to new directories based
 - Then, one by one, extract the ***Year***, ***Month***, and ***Day***.
 - Run an If condition to see if that folder has already been created; if not, create it using the file’s creation date as the name.
 - Finally, using the ***shutil.move*** function, move all the files one by one to the newly formed folder.
+- Read complete article [**here**](https://www.geeksforgeeks.org/python-move-files-to-creation-and-modification-date-named-directories/)
 
 ## Output: 
 ### Before:
